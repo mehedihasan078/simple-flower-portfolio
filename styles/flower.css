@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.container-full{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+#text-home{
+    color: #252432;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-light-gray{
+    color: #8987A1;
+}
+.paragraph-text-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.litile-color-gray{
+    color: #E95A08;
+}
+
+
+/* HEADER STYLES */
+/* HEADER LOGO STYLE */
+/* .logo{
+
+} */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+/* NAVBAR STYLES */
+.navbar ul{
+    display: flex;
+    
+}
+.navbar ul li{
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-right: 48px;
+}
+
+/* BANNER SECTION */
+.banner{
+    display: flex;
+    margin-top: 120px;
+}
+.banner-titles{
+    margin-top: 100px;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+}
+.beauty-text{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* BANNER RIGHT IMG STYLES */
+.banner-right-img{
+    max-width: 100%;
+}
+
+
+/* PLANTS SECTION STYLES */
+.plants-section{
+    margin-top: 120px;
+}
+.our-plant{
+    text-align: center;
+}
+.plant-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.plant-text{
+    font-size: 1.5rem;
+    width: 888px;
+    display: inline-block;
+    margin-top: 16px;
+}
+
+/* FLOWER BOX STYLES */
+.flower-box{
+    margin-top: 49px;
+    margin-bottom: 200px;
+}
+.card-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px;
+}
+.box{
+    max-width: 270px;
+}
+/* .flower-img-box{
+    max-width: 100%;
+} */
+.lily-text{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.prices{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 14px 0px;
+}
+.btn-primary{
+    background-color: #E95A08;
+    padding: 19px;
+    color: white;
+    border: none;
+    width: 270px;
+    height: 50px;
+}
+
+
+
+
+/* MOBILE RESPONSIVE */
+@media screen and (max-width: 576px) {
+    .container{
+        flex-direction: row;
+        justify-content:space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .navbar a{
+        display: none;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 28px;
+    }
+    .banner-titles{
+        margin-top: 30px;
+    }
+    .banner-title{
+        font-size: 24px;
+    }
+    .beauty-text{
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .banner-right-img{
+        margin-right: -32px;
+    }
+}
+
+
+
+
+
+
+

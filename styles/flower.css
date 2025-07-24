@@ -95,6 +95,8 @@
 .flower-box{
     margin-top: 49px;
     margin-bottom: 200px;
+
+    
 }
 .card-box{
     display: grid;
@@ -104,9 +106,9 @@
 .box{
     max-width: 270px;
 }
-/* .flower-img-box{
+.flower-img-box{
     max-width: 100%;
-} */
+}
 .lily-text{
     font-size: 1.3rem;
     font-weight: 500;
@@ -152,14 +154,34 @@
         margin-top: 30px;
     }
     .banner-title{
-        font-size: 24px;
+        font-size: 2rem;
+        margin-left: 20px;
     }
     .beauty-text{
-        font-size: 14px;
-        margin-top: 20px;
+        font-size: 1.5rem;
+        margin: 12px 20px;
     }
     .banner-right-img{
         margin-right: -32px;
+    }
+    .plant-text{
+        max-width: 480px;
+    }
+
+    .card-box{
+        grid-template-columns: repeat(2, 1fr);  
+    }
+    .box{
+        margin-top: 20px;
+        max-width: 250px;
+        margin-left: 16px;
+    }
+    .flower-img-box{
+        max-width: 100%;
+    }
+    .btn-primary{
+        width: 250px;
+        height: 50px;
     }
 }
 

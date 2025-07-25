@@ -203,15 +203,25 @@
 }
 
 .fast-images{
-    background-image: url('../images/deal-bloom.png'); width: 360px; height: 200px; margin-bottom: 20px; border-radius: 14px; opacity: 1;
+    background-image: url('../images/deal-bloom.png');
+    width: 360px; 
+    height: 200px; 
+    margin-bottom: 20px; 
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .second-images{
-    background-image: url('../images/deal-ana.png'); width: 360px; height: 200px; border-radius: 14px; opacity: 1;
+    background-image: url('../images/deal-ana.png'); 
+    width: 360px; 
+    height: 200px; 
+    border-radius: 14px;
     background-repeat: no-repeat;
 }
 .single-right-img{
-    background-image: url('../images/deal-zabo.png'); width: 750px; height: 420px; border-radius: 22px; opacity: 1;
+    background-image: url('../images/deal-zabo.png'); 
+    width: 750px; 
+    height: 420px; 
+    border-radius: 22px;
 }
 .off-text{
     color: white;

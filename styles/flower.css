@@ -257,7 +257,7 @@
 
 .flower-bg-image{
     height: 530px;
-    background-image: url('/images/news-letter-bg.png'); width: 100%;
+    background-image: url("../images/news-letter-bg.png"); width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
